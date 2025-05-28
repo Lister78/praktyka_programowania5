@@ -1,11 +1,17 @@
-def add (a: int , b: int) -> int :
-	return a + b
+"""Utility functions for basic arithmetic operations."""
 
-def subtract (a: int , b: int) -> int :
-	return a - b
+def add(a: int, b: int) -> int:
+    """Return the sum of a and b."""
+    return a + b
 
-def multiply (a: int , b: int) -> int :
-	return a * b
+def subtract(a: int, b: int) -> int:
+    """Return the difference of a and b."""
+    return a - b
 
-def divide ( a: int , b : int ) -> float :
-	return a / b
+def multiply(a: int, b: int) -> int:
+    """Return the product of a and b."""
+    return a * b
+
+def divide(a: int, b: int) -> float:
+    """Return the quotient of a divided by b."""
+    return a / b
